@@ -3,8 +3,6 @@ QUnit.test('hello test', function(assert) {
 });
 
 var App = window.App; /* to fix the App not defined eslint error even though it works fine .. */
-var Truck = App.Truck;
-
 QUnit.test('First test figure 8.10', function(assert) {
     var ds = new App.DataStore();
     console.log('ds dataStore object is created');
